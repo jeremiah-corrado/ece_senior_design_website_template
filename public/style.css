@@ -1,0 +1,67 @@
+/* Main Menu Classes: */
+.page-menu {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px;
+    width: max-content;
+}
+
+a.page-menu-button {
+    color:black;
+    text-decoration: none;
+}
+
+a.page-menu-button:visited {
+    text-decoration: none;
+}
+
+a.page-menu-button:hover {
+    text-decoration: underline;
+}
+
+
+/* Timeline (table) Classes */
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 750px;
+}
+
+
+/* Dual Column Stuff */
+/* HELPFUL: https://css-tricks.com/snippets/css/complete-guide-grid/ */
+.dual-col-container {
+    display: grid;
+    grid-template-columns: 30px 1fr 2fr 30px;
+}
+
+.left-column-item {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.right-column-item {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/* Other Classes: */
+.paragraph-box {
+    border: 5px dotted green;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 25px;
+    width: 30%;
+    text-align: center;
+}
+
+.team-member-box {
+    border: 5px solid red;
+    padding: 5px;
+    margin: 10px;
+    width: 500px;
+    text-align: justify;
+}
